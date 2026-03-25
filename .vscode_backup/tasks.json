@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MSVC CL.EXE",
+			"type": "shell",
+			"command": "${workspaceFolder}\\.vscode\\msvcc.ps1",
+			"args": [
+				"${file}",
+				"${workspaceFolder}",
+				"${fileBasenameNoExtension}"
+			],
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "On-Demand build",
+			"type": "shell",
+			"command": "${workspaceFolder}/.vscode/compile.sh",
+			"args": [
+				"${file}",
+				"${fileBasenameNoExtension}",
+				"${fileExtname}",
+				"${workspaceFolder}"
+			],
+			"problemMatcher": "$gcc"
+		},
+		{
+			"label": "On-Demand build (Windows)",
+			"type": "shell",
+			"command": "${workspaceFolder}/.vscode/compile.ps1",
+			"args": [
+				"${file}",
+				"${fileBasenameNoExtension}",
+				"${fileExtname}",
+				"${workspaceFolder}"
+			],
+			"problemMatcher": "$gcc"
+		}
+	]
+}

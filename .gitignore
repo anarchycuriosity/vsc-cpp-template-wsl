@@ -1,0 +1,6 @@
+bin/
+obj/
+*.obj
+*.pdb
+.vscode/cache.log
+temporary.csproj
