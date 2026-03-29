@@ -1,0 +1,3 @@
+/home/curiosity/tests/CMakeLists-test/vsc-cpp-template-wsl/src/build/CMakeFiles/app.dir
+/home/curiosity/tests/CMakeLists-test/vsc-cpp-template-wsl/src/build/CMakeFiles/edit_cache.dir
+/home/curiosity/tests/CMakeLists-test/vsc-cpp-template-wsl/src/build/CMakeFiles/rebuild_cache.dir
