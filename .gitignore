@@ -1,4 +1,8 @@
-bin/
+# 1. 忽略 bin 文件夹下的所有内容
+bin/*
+
+# 2. 但是不要忽略 .gitkeep 文件
+!bin/.gitkeep
 obj/
 *.obj
 *.pdb

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test.dir/src/add.cpp.o CMakeFiles/test.dir/src/main.cpp.o CMakeFiles/test.dir/src/sub.cpp.o -o /home/curiosity/CMakeLists-test/vsc-cpp-template-wsl/bin/test 

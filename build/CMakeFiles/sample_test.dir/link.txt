@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sample_test.dir/src/sample.cpp.o -o /home/curiosity/CMakeLists-test/vsc-cpp-template-wsl/bin/sample_test 

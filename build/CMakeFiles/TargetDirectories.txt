@@ -1,0 +1,4 @@
+/home/curiosity/CMakeLists-test/vsc-cpp-template-wsl/build/CMakeFiles/test.dir
+/home/curiosity/CMakeLists-test/vsc-cpp-template-wsl/build/CMakeFiles/sample_test.dir
+/home/curiosity/CMakeLists-test/vsc-cpp-template-wsl/build/CMakeFiles/edit_cache.dir
+/home/curiosity/CMakeLists-test/vsc-cpp-template-wsl/build/CMakeFiles/rebuild_cache.dir

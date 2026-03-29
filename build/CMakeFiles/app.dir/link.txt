@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/app.dir/src/add.cpp.o CMakeFiles/app.dir/src/main.cpp.o CMakeFiles/app.dir/src/sample.cpp.o CMakeFiles/app.dir/src/sub.cpp.o -o app 
