@@ -38,6 +38,17 @@ tree > structure.txt 导出到文件
 变量和宏，如果只是找这个盒子不需要加${}除非需要对这个盒子的值进行操作
 变量装着数据,而宏只是文本替换
 
+总结一下，CMakeLists需要包含以下东西
+cmake_minimum_required(VERSION 3.15)    cmake版本
+project(test)   项目名字
+file(GLOB SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)    拿到源文件作为变量SRC
+set(EXECUTABLE_OUTPUT_PAHT ${PROJECT_SOURCE_DIR}/bin)   设置输出路径的变量的值
+include_directories(${PROJECT_SOURCE_DIR}/inc)  设置inc路径，使用这个命令而不用set修改
+add_executable(${PROJECT_NAME} ${SRC})  生成二进制文件
+
+通过cmake制作头文件：有些时候我们编译不是为了生成二进制文件，而是为了生成库文件，这分为动态库和静态库
+
+
 ]]
 
 set(CMAKE_CXX_STANDARD 17)
